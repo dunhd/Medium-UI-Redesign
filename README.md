@@ -1,6 +1,6 @@
 # medium_app
 
-A new Flutter project.
+This is the Medium app redesign using Flutter
 
 ## Getting Started
 
