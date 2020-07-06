@@ -9,10 +9,7 @@ class TopicCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      alignment: Alignment.bottomLeft,
       margin: EdgeInsets.all(10.0),
-      width: 150,
-      height: 55.0,
       decoration: BoxDecoration(
           image: DecorationImage(
             image: AssetImage(topicData.topicItems[index].topicUrl),
@@ -43,9 +40,6 @@ class TopicCard extends StatelessWidget {
               ),
             ),
             child: Container(
-              alignment: Alignment.bottomLeft,
-              width: 150,
-              height: 55.0,
               child: Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Text(

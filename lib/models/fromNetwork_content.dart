@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:medium_app/screens/home_screen.dart';
-import 'package:medium_app/screens/article_page.dart';
 import '../styles.dart';
 
 class FromNetworkContent extends StatelessWidget {
